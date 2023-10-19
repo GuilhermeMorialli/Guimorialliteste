@@ -1,0 +1,1 @@
+var notParams=new URLSearchParams(window.location.search);if(notParams.has("green")){var greenValue=notParams.get("green");""!==greenValue&&Notiflix.Notify.success(greenValue)}else if(notParams.has("red")){var redValue=notParams.get("red");""!==redValue&&Notiflix.Notify.failure(redValue)}
